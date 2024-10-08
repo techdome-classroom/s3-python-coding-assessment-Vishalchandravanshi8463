@@ -23,7 +23,7 @@ class Solution(object):
 
         for i in range(n-1):
             if roman_map[s[i]] < roman_map[s[i+1]]:
-                total -= roman_map[s[i]]
+                ans -= roman_map[s[i]]
             else:
                 total += roman_map[s[i]]
 
