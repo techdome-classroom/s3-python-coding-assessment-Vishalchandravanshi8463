@@ -17,6 +17,19 @@ class Solution(object):
                     return False
 
         return len(stack) == 0
+    
+    def check(self, stack: list, c: str) -> bool:
+        if stack[-1] == '(' and c == ')':
+            stack.pop()
+            return True
+        elif stack[-1] == '[' and c == ']':
+            stack.pop()
+            return True
+        elif stack[-1] == '{' and c == '}':
+            stack.pop()
+            return True
+
+        return False
         
 
 
