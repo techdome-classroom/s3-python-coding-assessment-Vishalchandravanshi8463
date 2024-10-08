@@ -19,7 +19,7 @@ class Solution(object):
 
         n = len(s)
         last = roman_map[s[n-1]]
-        total = 0
+        ans = 0
 
         for i in range(n-1):
             if roman_map[s[i]] < roman_map[s[i+1]]:
