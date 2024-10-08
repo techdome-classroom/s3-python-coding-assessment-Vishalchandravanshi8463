@@ -17,7 +17,7 @@ class Solution(object):
             'M': 1000
         }
 
-        n = len(s)
+        m = len(s)
         last = roman_map[s[n-1]]
         ans = 0
 
