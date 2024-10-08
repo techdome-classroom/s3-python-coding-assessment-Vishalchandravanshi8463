@@ -21,7 +21,7 @@ class Solution(object):
         last = roman_map[s[m-1]]
         ans = 0
 
-        for i in range(n-1):
+        for i in range(m-1):
             if roman_map[s[i]] < roman_map[s[i+1]]:
                 ans -= roman_map[s[i]]
             else:
