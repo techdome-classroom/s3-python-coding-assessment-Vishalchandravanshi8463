@@ -4,6 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
+        pass
          stack = []
 
         for ch in s:
@@ -16,7 +17,7 @@ class Solution(object):
                     return False
 
         return len(stack) == 0
-        pass
+        
 
 
 
