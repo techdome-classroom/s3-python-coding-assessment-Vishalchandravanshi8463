@@ -4,7 +4,6 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        pass
         stack = []
 
         for ch in s:
@@ -18,7 +17,7 @@ class Solution(object):
 
         return len(stack) == 0
     
-    def check(self, stack: list, c: str) -> bool:
+    def check(self, stack, c):
         if stack[-1] == '(' and c == ')':
             stack.pop()
             return True
