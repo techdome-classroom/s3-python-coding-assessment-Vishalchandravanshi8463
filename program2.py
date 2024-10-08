@@ -28,6 +28,6 @@ class Solution(object):
                 ans += roman_map[s[i]]
 
         ans += last
-        return total
+        return ans
 
 
