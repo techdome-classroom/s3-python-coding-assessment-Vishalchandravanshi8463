@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         pass
-         stack = []
+        stack = []
 
         for ch in s:
             if ch in '({[':
