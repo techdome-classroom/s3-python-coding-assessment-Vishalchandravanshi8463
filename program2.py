@@ -25,9 +25,9 @@ class Solution(object):
             if roman_map[s[i]] < roman_map[s[i+1]]:
                 ans -= roman_map[s[i]]
             else:
-                total += roman_map[s[i]]
+                ans += roman_map[s[i]]
 
-        total += last
+        ans += last
         return total
 
 
