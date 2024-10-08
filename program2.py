@@ -18,7 +18,7 @@ class Solution(object):
         }
 
         m = len(s)
-        last = roman_map[s[n-1]]
+        last = roman_map[s[m-1]]
         ans = 0
 
         for i in range(n-1):
