@@ -24,8 +24,8 @@ class Solution(object):
             else:
                 total += roman_map[s[i]]
 
-        total += last
-        return total
+             total += last
+    return total
 
 
 
