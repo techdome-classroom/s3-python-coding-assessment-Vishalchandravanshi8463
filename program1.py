@@ -12,12 +12,12 @@ class Solution(object):
             else:
                 if len(stack) < 1:
                     return False
-                if not self.check(stack, ch):
+                if not self.solve(stack, ch):
                     return False
 
         return len(stack) == 0
     
-    def check(self, stack, c):
+    def solve(self, stack, c):
         if stack[-1] == '(' and c == ')':
             stack.pop()
             return True
